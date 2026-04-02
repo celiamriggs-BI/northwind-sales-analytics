@@ -27,6 +27,7 @@ Removed unreliable geographic fields (Region/Territory)
 Ensured all relationships are one‑to‑many, single‑direction, and unambiguous
 
 ![Star Schema](https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20Screenshots/star%20schema.png?raw=true)
+![Schema Relationships](https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20Screenshots/measures%20and%20relationships.png?raw=true)
 
 🧪 SQL Exploration & Data Preparation
 1. Total Sales by Employee
