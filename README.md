@@ -22,40 +22,42 @@ Removed unreliable geographic fields (Region/Territory)
 
 Ensured all relationships are one‑to‑many, single‑direction, and unambiguous
 
-![Star Schema]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20Screenshots/star%20schema.png?raw=true
+![Star Schema](https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20Screenshots/star%20schema.png?raw=true)
 
 🧪 SQL Exploration & Data Preparation
 1. Total Sales by Employee
 Validated revenue totals before building BI visuals.
 
-![Total Sales by Employee] https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/employees%20ranked%20by%20sales.png?raw=true
+![Total Sales by Employee](https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/employees%20ranked%20by%20sales.png?raw=true)
 
 
 2. Countries Served per Employee
 Count of distinct shipping countries handled by each rep.
 
-![Countries Served by Employee]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/employees%20and%20countries%20serviced%20-%20ranked.png?raw=true
+![Countries Served by Employee](https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/employees%20and%20countries%20serviced%20-%20ranked.png?raw=true)
+
 
 3. Late Shipments
 Identifies orders shipped after the RequiredDate.
 
-![Late Shipments]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/late%20shipments%20per%20employee.png?raw=true
+![Late Shipments](https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/late%20shipments%20per%20employee.png?raw=true)
 
 4. Late Shipment Percentage
 Shows the percentage of each employee’s orders that shipped late.
 
-![Late Shipment Percentage]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/percentage%20of%20late%20orders.png?raw=true
+![Late Shipment Percentage](https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/percentage%20of%20late%20orders.png?raw=true)
 
 5. Drill‑Down Query: Sales × Country × Employee
 A multi‑CTE SQL query used to build the BI drill‑down visuals.
 
-![Drill-Down Query]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/average%20sales%20per%20country%20per%20employee.png?raw=true
+![Drill-Down Query](https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/average%20sales%20per%20country%20per%20employee.png?raw=true)
+
 
 📈 Power BI Dashboards
 1. Category Performance
 Highlights revenue concentration by product category and employee.
 
-![Category Performance]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20Screenshots/region%20by%20category.png?raw=true
+![Category Performance](https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20Screenshots/region%20by%20category.png?raw=true)
 
 2. Employee Performance
 Compares:
@@ -68,7 +70,7 @@ Average sales per country
 
 Scatter plot showing efficiency differences
 
-![Employee Performance]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20Screenshots/region%20by%20country.png?raw=true
+![Employee Performance](https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20Screenshots/region%20by%20country.png?raw=true)
 
 🚨 Operational Insight: Late Shipments
 Late Shipments: A Visible Problem With No Actionable Root Cause
