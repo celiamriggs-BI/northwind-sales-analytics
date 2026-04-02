@@ -4,6 +4,10 @@ Overview
 
 This project reimagines the classic Northwind dataset through a modern BI lens. Using SQL for data exploration and Power BI for modeling and visualization, the goal was to evaluate employee performance, geographic coverage, and operational reliability — while exposing structural issues in the original data model that limit meaningful analysis.
 
+📁 Power BI File  
+The full interactive Power BI model is included in this repository:  
+**Northwind_Territory_Strategy_Summary.pbix**  
+
 This case study demonstrates how legacy, snowflaked data can be transformed into a clean, analytics‑ready star schema that supports clear insights and business decision‑making.
 
 🧱 Schema Redesign: From Snowflake to Star
