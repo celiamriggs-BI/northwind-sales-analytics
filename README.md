@@ -28,39 +28,34 @@ Ensured all relationships are one‑to‑many, single‑direction, and unambiguo
 1. Total Sales by Employee
 Validated revenue totals before building BI visuals.
 
-📌 Insert screenshot:
-/sql_screenshots/total_sales_by_employee.png
+![Total Sales by Employee] https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/employees%20ranked%20by%20sales.png?raw=true
+
 
 2. Countries Served per Employee
 Count of distinct shipping countries handled by each rep.
 
-📌 Insert screenshot:
-/sql_screenshots/countries_served.png
+![Countries Served by Employee]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/employees%20and%20countries%20serviced%20-%20ranked.png?raw=true
 
 3. Late Shipments
 Identifies orders shipped after the RequiredDate.
 
-📌 Insert screenshot:
-/sql_screenshots/late_shipments.png
+![Late Shipments]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/late%20shipments%20per%20employee.png?raw=true
 
 4. Late Shipment Percentage
 Shows the percentage of each employee’s orders that shipped late.
 
-📌 Insert screenshot:
-/sql_screenshots/late_shipment_pct.png
+![Late Shipment Percentage]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/percentage%20of%20late%20orders.png?raw=true
 
 5. Drill‑Down Query: Sales × Country × Employee
 A multi‑CTE SQL query used to build the BI drill‑down visuals.
 
-📌 Insert screenshot:
-/sql_screenshots/drilldown_query.png
+![Drill-Down Query]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20SQL/average%20sales%20per%20country%20per%20employee.png?raw=true
 
 📈 Power BI Dashboards
-1. Product Performance
+1. Category Performance
 Highlights revenue concentration by product category and employee.
 
-📌 Insert screenshot:
-/dashboards/product_performance.png
+![Category Performance]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20Screenshots/region%20by%20category.png?raw=true
 
 2. Employee Performance
 Compares:
@@ -73,8 +68,7 @@ Average sales per country
 
 Scatter plot showing efficiency differences
 
-📌 Insert screenshot:
-/dashboards/employee_performance.png
+![Employee Performance]https://github.com/celiamriggs-BI/northwind-sales-analytics/blob/main/BI%20PROJECT%20Screenshots/region%20by%20country.png?raw=true
 
 🚨 Operational Insight: Late Shipments
 Late Shipments: A Visible Problem With No Actionable Root Cause
@@ -127,19 +121,23 @@ This project demonstrates how the lack of a proper geographic hierarchy limits o
 
 📂 Repository Structure
 Code
-/sql_screenshots
-    total_sales_by_employee.png
-    countries_served.png
-    late_shipments.png
-    late_shipment_pct.png
-    drilldown_query.png
-
-/model
-    model.png
-
-/dashboards
-    product_performance.png
-    employee_performance.png
+/BI_Project_SQL
+    Average_Sales_per_country_per_employee.png
+    Checking_For_Late_Shipments.png
+    Count_Employees.png
+    countries_we_service.png
+    employee_servicing_each_country_count.png
+    employees_and_countries_serviced-ranked.png
+    employees_grouped_by_Country_to_figure_out_regions.png
+    employees_ranked_by_sales.png
+    percentage_of_late_orders.png
+   
+/BI_Project_Screenshots
+    Executive_overview.png
+    measures_and_relationships.png
+    region_by_category.png
+    Region_by_country.png
+    star_schema.png
 
 README.md
 Northwind.pbix
