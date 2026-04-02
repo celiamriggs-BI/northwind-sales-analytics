@@ -22,8 +22,7 @@ Removed unreliable geographic fields (Region/Territory)
 
 Ensured all relationships are one‑to‑many, single‑direction, and unambiguous
 
-📌 Insert screenshot here:  
-/model/model.png (Power BI Model View)
+BI PROJECT Screenshots/star schema.png
 
 🧪 SQL Exploration & Data Preparation
 1. Total Sales by Employee
