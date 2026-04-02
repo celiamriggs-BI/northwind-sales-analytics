@@ -142,7 +142,8 @@ Code
     star_schema.png
 
 README.md
-Northwind.pbix
+Northwind_Territory_Strategy_Summary.pbix
+average_sales_per_country_per_employee.sql
 ✔️ Summary
 This project demonstrates:
 
